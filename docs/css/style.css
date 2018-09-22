@@ -60,12 +60,12 @@ body {
     text-align: left;
 }
   
-  .mobile-nav__item {
+.mobile-nav__item {
     margin: 16px 0;
     border-bottom: 2px solid rgb(27, 25, 25);
 }
   
-  .mobile-nav__item a {
+.mobile-nav__item a {
     font-size: 24px;
 }
 
@@ -110,7 +110,7 @@ body {
     display: block;
     list-style: none;
     text-align: center;
-    padding: 1.8rem;
+    padding: .8rem;
     border: 1px solid #AAABB8 ;
     border-radius: 2rem 3rem;
     box-shadow: .3rem .5rem #323238;
