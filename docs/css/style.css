@@ -1,6 +1,16 @@
+body {
+    background-color: #fefefe;
+}
 .menu__banner {
     text-align: center;
-    padding: 3rem;
+    padding-bottom: 3rem;
+    margin: 0;
+}
+
+.menu__banner p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .menu__buttons a {
@@ -9,8 +19,12 @@
     list-style: none;
     text-align: center;
     padding: 3rem;
-    border: 1px solid #AAABB8;
-     margin: 1rem;
+    border: 1px solid #AAABB8 ;
+    border-radius: 2rem 3rem;
+    box-shadow: .3rem .5rem #323238;
+    margin: 1rem 0rem;
+    font-size: 2.5rem;
+    color: black;    
 }
 
 /* reminder */
