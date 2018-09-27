@@ -1,0 +1,35 @@
+ .Timer__banner {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+ .header {
+    background-color: #bebbbb;
+    padding: 20px 10px;
+    color: white;
+    text-align: left;
+    
+}
+
+ #header__textInput {
+    width: 280px;
+    height: 25px;
+    text-indent: 10px;
+}
+
+ ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+
+ 

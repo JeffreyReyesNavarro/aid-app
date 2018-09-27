@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aid WebApp</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/listToDo.css" />
 </head>
 <body>
         <div class="backdrop"></div>
@@ -39,10 +40,20 @@
         </nav>
     
         <main>
-            <div class="listToDo__banner">
-                <p>List To Do</p>
+            <div class="Timer__banner">
+                <p>Add list to do</p>
             </div>
+
+            <div class="header">
+                <input type="text" id="header__textInput" placeholder="Enter your task here">
+                <span onclick="newElement()" class="header__btn_Add">Add</span>
+              </div>
+
+              <ul id="ul__listTasks"> 
+               
+              </ul>
         </main>
         <script src="../JS/shared.js"></script>
+        <script src="../JS/listToDo.js"></script>
     </body>
     </html>
