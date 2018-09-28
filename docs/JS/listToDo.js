@@ -1,5 +1,5 @@
 // close button
-var myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.getElementById("ul__listTasks");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
