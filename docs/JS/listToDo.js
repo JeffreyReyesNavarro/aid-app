@@ -32,10 +32,12 @@ function newElement() {
     var inputValue = document.getElementById("header__textInput").value;
     var t = document.createTextNode(inputValue);
     var displayModal = document.querySelector('.modal')
+    var backdrop = document.querySelector('.backdrop');
     
     li.appendChild(t);
     if (inputValue === '') {
     displayModal.style.display = 'block';
+    backdrop.style.display = 'block';
 
     document.getElementById("modal").in
     } else {
@@ -59,7 +61,9 @@ function newElement() {
 //exit modal btn
   var modalBtn = document.querySelector('.modal__btn__ok');
   var displayModal = document.querySelector('.modal');
+  var backdrop = document.querySelector('.backdrop');
 
   modalBtn.addEventListener('click', function() {
       displayModal.style.display = 'none';
+      backdrop.style.display = 'none';
   })
