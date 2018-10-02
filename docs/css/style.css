@@ -109,7 +109,8 @@ body {
 .menu__buttons {
     width: 250px;
     align-items: center;
-    margin: 0px 70px;
+    /* margin: 0px 70px; */
+    margin: auto;
 }
 
 .menu__buttons a {

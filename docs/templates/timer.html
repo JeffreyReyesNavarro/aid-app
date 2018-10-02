@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aid WebApp</title>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/timer.css" />
 </head>
 
 <body>
@@ -43,7 +44,17 @@
             <div class="Timer__banner">
                 <p>Timer</p>
             </div>
+            <div class="stopwatch"></div>
+            <ul class="results"></ul>
+            <div>
+                <a href="#" class="timer__btn" onClick="stopwatch.start();">Start</a>
+	            <a href="#" class="timer__btn" onClick="stopwatch.lap();">Lap</a>
+	            <a href="#" class="timer__btn" onClick="stopwatch.stop();">Stop</a>
+	            <a href="#" class="timer__btn" onClick="stopwatch.restart();">Restart</a>
+	            <a href="#" class="timer__btn" onClick="stopwatch.clear();">Clear Laps</a>
+            </div>
         </main>
         <script src="../JS/shared.js"></script>
+        <script src="../JS/timer.js"></script>
     </body>
     </html>
