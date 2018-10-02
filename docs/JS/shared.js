@@ -11,7 +11,7 @@ backdrop.addEventListener('click', closeBackdrop);
 function closeBackdrop() {
     backdrop.style.display = 'none';
     mobileNav.style.display = 'none';
-    displayModal
+    displayModal.style.display = 'none';
 }
 
 function openBackdrop() {
