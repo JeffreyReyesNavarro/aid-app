@@ -1,9 +1,27 @@
 body {
-    background-color: #fefefe;
+    background-color: #64B6AC;
+    padding: 0;
+    margin: 10px 0;
 }
 
 .mobile-nav {
     display: none;
+}
+
+.Banner__Map {
+    padding: .5px 0;
+    margin: 10px 0;
+    background-color: #C0FDFB;
+}
+
+.Banner__Map p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+    color: #5D737E;
 }
 
 #map {
