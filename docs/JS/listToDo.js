@@ -27,6 +27,7 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
+
 function newElement() {
     var li = document.createElement("li");
     var inputValue = document.getElementById("header__textInput").value;
@@ -57,6 +58,13 @@ function newElement() {
         div.style.display = "none";
       }
     }
+
+    var btnList = document.querySelector("#ul__listTasks li");
+    if(btnList)
+    btnList.addEventListener("click", function(ev) {
+      console.log(ev.target);
+      ev.target.style.textDecoration = "line-through";
+    });
   }
 //exit modal btn
   var modalBtn = document.querySelector('.modal__btn__ok');
