@@ -3,10 +3,10 @@
     display: none;
     z-index: 200;
     top: 20%;
-    left: 30%;
+    left: 23%;
     width: 40%;
-    background: white;
-    padding: 1rem;
+    background: #DAFFEF;
+    padding: 30px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   } 
@@ -34,10 +34,12 @@
     font-size: 30px;
 }
  .header {
-    background-color: #bebbbb;
+    background-color: #C0FDFB;
     padding: 20px 10px;
     color: white;
     text-align: left;
+    margin: 50px 0;
+    font-weight: bold;
     
 }
 
@@ -48,13 +50,13 @@
 }
 
 .header__btn_Add {
-    padding: 7  px 25px;
-    background: #d9d9d9;
+    padding: 0px 12px;
     color: #555;
     text-align: center;
-    font-size: 14px;
+    font-size: 30px;
     transition: 0.3s;
     border-radius: 0;
+    margin: auto;
   }
 
  ul {
