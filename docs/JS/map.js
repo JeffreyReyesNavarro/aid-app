@@ -50,6 +50,7 @@ var map, infoWindow;
       function createMarker(place) {
 
         var placeLoc = place.geometry.location;
+        var infowindow = new google.maps.InfoWindow();
         var marker = new google.maps.Marker({
           map: map,
           position: place.geometry.location
